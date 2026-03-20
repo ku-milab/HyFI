@@ -21,7 +21,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = '2'
 device = torch.device('cuda')
 print(device)
 
-model_list = ['RN101','ViT-B/32', 'ViT-B/16', 'ViT-L/14', 'ViT-H-14']
+model_list = ['RN50','RN101','ViT-B/32', 'ViT-B/16', 'ViT-L/14', 'ViT-H-14']
 
 brain_data = 'EEG'
 # brain_data = 'MEG'
