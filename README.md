@@ -69,7 +69,7 @@ pip install -r requirements.txt
 - Download the data ( **THINGS-Image** :  [OSF repository](https://osf.io/jum2f/files/osfstorage, **THINGS-EEG**: [OSF repository])
 - run the preprocess data
 
-You can dowonload preprocessed EEG features at [LINK](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
+You can download preprocessed EEG features at [[Link]](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
   
 ## Image Feature Preparation
 We prepare the visual features from a pre-trained image encoder for efficiency.
@@ -85,7 +85,7 @@ python Extract_CLIP_embedding.py
 ```
 
 * Before running any scripts, make sure that the dataset path is correctly set in the code or configuration file.
-* You can dowonload preprocessed augmented image features at [LINK](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
+* You can download preprocessed augmented image features at [[Link]](https://huggingface.co/datasets/SangminJo/HyFI/tree/main).
 
 
 ## Running the Code
